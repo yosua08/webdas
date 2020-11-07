@@ -1,0 +1,46 @@
+nav {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    line-height: 30px;
+    background: #7CFC00;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav a{
+    color:#fff;
+    font-size:18px;
+}
+
+nav ul li {
+    width: 32%;
+    height: 30px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    background: #7CFC00;
+    font-size: 18px;
+}
+
+nav ul li:hover{
+    background: #7CFC00;;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li ul li {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    background: #00FF00;
+}
