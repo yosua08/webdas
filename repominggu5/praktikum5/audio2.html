@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tes Background Audio</title>
+    <style>
+        input, button{background: #C5CBE3}
+    </style>
+</head>
+
+<body background="57b2f7f505c32_thumb900.jpg">
+    <h1 style="text-align: center"><u>Formulir PPDB Jalur Zonasi Tahun 2020</u></h1>
+    <form action="form.php" method="POST">
+        
+        <center>
+            <table border="1px">
+                <tr><th style="text-align: left">Nomor</th><th style="text-align: left">INFO PENDAFTARAN</th></tr>
+                <tr>
+                    <td style="text-align: center">1</td>
+                    <td>
+                        <label>NISN &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; :</label>
+                        <input type="text" name="nisn">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">2</td>
+                    <td>
+                        <label>Asal Sekolah &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+                        <input type="text" name="asal_sekolah">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">3</td>
+                    <td>
+                        <label>Tahun Lulus &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="tahun_lulus">
+                        <label><i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(lampirkan fotocopy ijazah)</i></label>
+                    </td>
+                </tr>
+                <tr><th style="text-align: left" colspan="2"><b>DATA CALON PESERTA</b></th></tr>
+                <tr>
+                    <td style="text-align: center">4</td>
+                    <td>
+                        <label>Nama Lengkap &emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+                        <input type="text" name="nama_lengkap">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">5</td>
+                    <td>
+                        <label>NIK &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="nik">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">6</td>
+                    <td>
+                        <label>Tempat/Tanggal Lahir &emsp; &emsp;:</label>
+                        
+                        <input type="text" name="tempat_tanggal_lahir">
+                        <label>&emsp; &emsp; &emsp;Umur:</label>
+                        <input type="text" name="umur" style="width: 20px">
+                        <label>Tahun:</label>
+                        <input type="text" name="tahun" style="width: 40px">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Foto Copy Akte Kelahiran Yang Telah Dilegalisir <i>(Di Lampirkan)</i></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">7</td>
+                    <td>
+                        <label>Jenis Kelamin &emsp;&emsp;&emsp;&emsp; &emsp; :</label>
+                        <label><input type="radio" name="jenis_kelamin">Laki-laki</label>
+                        <br>
+                        <label>&emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="radio" name="jenis_kelamin">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">8</td>
+                    <td>
+                        <label>Alamat &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+                        <input type="text" name="alamat">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">9</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp; &emsp;Desa/Kel &emsp;&emsp;&emsp;:</label>
+                        <input type="text" name="desa/kel">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">10</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp;&emsp; Kecamatan &emsp;&emsp; :</label>
+                        <input type="text" name="kecamatan">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">11</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp;&emsp; Kabupaten &emsp;&emsp; :</label>
+                        <input type="text" name="kabupaten">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">12</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp;&emsp; Provinsi &emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="provinsi">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">13</td>
+                    <td>
+                        <label>Email Aktif &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :</label>
+                        <input type="email" name="email_aktif" placeholder="e-mail@gmail.com">
+                    </td>
+                </tr>
+                <tr><td style="text-align: left" colspan="2"><b>DATA ORANG TUA &emsp;&emsp;</b><i>(lampirkan KK)</i></td></tr>
+                <tr>
+                    <td style="text-align: center">14</td>
+                    <td>
+                        <labe>Nomor Kartu Keluarga&emsp;&emsp;:</label>
+                        <input type="text" name="nomor_kartu_keluarga">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">15</td>
+                    <td>
+                        <labe>Nama Ayah Kandung &emsp; &emsp; :</label>
+                        <input type="text" name="nama_ayah_kandung">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">16</td>
+                    <td>
+                        <labe>Agama &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="agama">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">17</td>
+                    <td>
+                        <labe>Pekerjaan &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="pekerjaan">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">18</td>
+                    <td>
+                        <labe>Nama Ibu Kandung &emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="nama_ibu_kandung">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">19</td>
+                    <td>
+                        <labe>Agama &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="agama">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">20</td>
+                    <td>
+                        <labe>Pekerjaan &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="pekerjaan">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">21</td>
+                    <td>
+                        <labe>Alamat Orang Tua&emsp;&emsp;&emsp;&emsp;:</label>
+                        <input type="text" name="alamat_orang_tua">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">22</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp; &emsp;Desa/Kel &emsp;&emsp;&emsp;:</label>
+                        <input type="text" name="desa/kel">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">23</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp;&emsp; Kecamatan &emsp;&emsp; :</label>
+                        <input type="text" name="kecamatan">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">24</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp;&emsp; Kabupaten &emsp;&emsp; :</label>
+                        <input type="text" name="kabupaten">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">25</td>
+                    <td>
+                        <label>&emsp;&emsp;&emsp;&emsp; Provinsi &emsp;&emsp;&emsp; :</label>
+                        <input type="text" name="provinsi">
+                    </td>
+                </tr>
+                    
+            </table>
+        </center>
+    </form>
+
+    <audio hidden autoplay loop>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
